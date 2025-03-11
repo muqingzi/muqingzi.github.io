@@ -495,6 +495,129 @@ CPU的主要参数：【主频】在CPU内数字脉冲信号震荡的速度，CP
             </div>
         </article>
         <div class="index-post-divider"></div>
+            
+        <article class="index-post">
+            <a class="abstract-title" href="/2024/11/29/Shell%E5%AD%A6%E4%B9%A0/">
+                <span class="abstract-title-text">Shell学习</span>
+            </a>
+            <div class="abstract-content">
+                Shell学习
+结合网课、课内教材、网文学习
+【IT】Shell编程从入门到放弃（2016）【全20集】
+
+常用指令
+
+
+指令&#x2F;参数
+使用&#x2F;作用
+
+
+
+$?
+保存前一个命令的返回码
+
+
+$*
+传给脚本或函数的参数组成的单个字符串，即除脚本名称后从第一个参数开始的字符串，每个参数以$IFS分割(一般内部域分隔符$IFS为一个空格)
+
+
+$#
+传给脚本&#x2F;函数的参数的个数
+
+
+颜色字体
+-e “\033[3m内容\033[0m” 也可以是 4m;后面如果是1m就后面的颜色都变化
+
+
+
+指令&#x2F;参数
+使用&#x2F;作用
+
+
+
+-d file
+返回真的条件，...
+            </div>
+            <!-- read more -->
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2025/03/11">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2024/11/29</span>
+                </div>
+                <!-- tags -->
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+            
+        <article class="index-post">
+            <a class="abstract-title" href="/2024/11/29/Shell%E7%BC%96%E7%A8%8B%E5%A4%8D%E4%B9%A0/">
+                <span class="abstract-title-text">Shell编程复习</span>
+            </a>
+            <div class="abstract-content">
+                Shell编程复习
+最近一段时间，需要频繁使用Linux，所以就回过头来复习一下shell编程。
+Shell教程 ｜ 菜鸟教程 	&lt;&#x3D;	回顾简单Shell编程的话， 把基础语法过一遍就差不多了。不需要再额外看视频、看书了。
+当然如果需要内核编程的话，还是需要注意对C语言、操作系统、计算机网络知识复习、巩固。
+
+0. 零散知识
+#! 告诉系统其后路径所指定的程序即是解释此脚本文件的 Shell 程序。
+1234#!/bin/bash#!/bin/sh....
+
+编写shell程序后，两种执行方式：
+
+给shell程序可执行权限
+12345678910111213[root@...
+            </div>
+            <!-- read more -->
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2025/03/11">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2024/11/29</span>
+                </div>
+                <!-- tags -->
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
+            
+        <article class="index-post">
+            <a class="abstract-title" href="/2024/11/29/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">
+                <span class="abstract-title-text">计算机网络</span>
+            </a>
+            <div class="abstract-content">
+                计算机网络
+有时候回忆起一些计算机网络的知识、问题，就在这里记录下。
+
+
+物理层
+
+线路里的电信号、无线网络里的无线信号。传输bit流
+
+链路层
+
+媒体访问控制地址MAC（功能上其实类似网络层）、碰撞检测（同一交换机局域网环境下线路占用问题，一方必须等另一方释放对线路的占用才能使用线路传输数据）、指数退避（线路阻塞后指数型等待时间，一开始假如1.X秒，后面就是2，4，8…）。将网络层的分组封装成帧，传输。
+
+网络层
+
+报文交换、路由。将传输成的报文，分装成分组，传输。
+
+传输层
+
+TCP,UDP
+
+应用层
+
+HTTP(GET获取，POST添加操作,PUT修改操作,DELETE删除操作)。...
+            </div>
+            <!-- read more -->
+            <div class="abstract-post-meta">
+                <!-- date -->
+                <div class="abstract-date" title="Last updated: 2025/03/11">
+                    <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2024/11/29</span>
+                </div>
+                <!-- tags -->
+            </div>
+        </article>
+        <div class="index-post-divider"></div>
     <!-- paginator  -->
 </main>
 
@@ -534,9 +657,12 @@ CPU的主要参数：【主频】在CPU内数字脉冲信号震荡的速度，CP
         
         
         
+        
+        
+        
     <div class="total-and-search">
         <div class="total-archive">
-        Total : 4
+        Total : 7
         </div>
         <!-- search  -->
     </div>
@@ -558,6 +684,18 @@ CPU的主要参数：【主频】在CPU内数字脉冲信号震荡的速度，CP
         <li class="archive-post-item">
             <span class="archive-post-date">12/25</span>
             <a class="archive-post-title" href="/2024/12/25/%E4%BD%BF%E7%94%A8PE%E5%AE%89%E8%A3%85%E5%8E%9F%E7%89%88win10/">使用PE安装原版win10</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">11/29</span>
+            <a class="archive-post-title" href="/2024/11/29/Shell%E5%AD%A6%E4%B9%A0/">Shell学习</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">11/29</span>
+            <a class="archive-post-title" href="/2024/11/29/Shell%E7%BC%96%E7%A8%8B%E5%A4%8D%E4%B9%A0/">Shell编程复习</a>
+        </li>
+        <li class="archive-post-item">
+            <span class="archive-post-date">11/29</span>
+            <a class="archive-post-title" href="/2024/11/29/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a>
         </li>
             </ul>
     </div>
